@@ -11,4 +11,10 @@
  */
 
 int trigPin=9;
-int echoPin=10
+int echoPin=10;
+
+void setup() {
+    Serial.begin(9600);
+    pinMode(trigPin, OUTPUT);
+    pinMode(echoPin,INPUT);
+}
