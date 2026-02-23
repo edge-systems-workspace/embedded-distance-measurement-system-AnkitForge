@@ -9,3 +9,6 @@
  * Measures distance using HC-SR04 ultrasonic sensor
  * and displays structured output via Serial Monitor.
  */
+
+int trigPin=9;
+int echoPin=10
